@@ -26,6 +26,6 @@ io.on('connection', (socket) => {
     })
 });
 
-server.listen(4000, () => {
-    console.log("App is listning on 4000");
+server.listen(3000, () => {
+    console.log("App is listning on 3000");
 });
